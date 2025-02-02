@@ -1,0 +1,46 @@
+.container{
+  /*border: 2px solid black;
+    /*display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: repeat(2,200px);*/
+height: 100vh;
+}
+
+.item1{
+    position:absolute;
+    /*left: 90px;*/
+    bottom: 0px;
+    right:0px;
+
+  width: 100px;
+  height: 100px;  
+
+background-color: aqua;
+}
+.item2{
+     
+    width: 100px;
+    height: 100px; 
+    background-color: pink;
+    }
+.item3{
+    width: 100px;
+  height: 100px; 
+    
+        background-color: rgb(194, 45, 45);
+    }
+    /*
+.item4{
+    width: 100px;
+  height: 100px; 
+    
+   
+        background-color: rgb(226, 236, 41);
+        }
+ .item5{
+    width: 100px;
+  height: 100px; 
+    
+   grid-column: 2/4;
+            background-color: rgb(66, 19, 160);
+            }
